@@ -3,7 +3,7 @@ from PIL import Image, ImageEnhance, ImageFilter
 import pytesseract
 
 # Specify the path to the Tesseract executable if not in your PATH
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\karthik\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\sahana\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
 class ImageProcessor:
     def __init__(self):
